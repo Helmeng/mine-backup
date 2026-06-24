@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mine-safety-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/mine_safety?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 1111
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+zlmedia:
+  url: http://218.199.69.79
+  port: 80
+  secret: 035c73f7-bb6b-4889-a715-d9eb2d1925cc
+  vhost: __defaultVhost__
+  app: live
+  public_url: http://218.199.69.79

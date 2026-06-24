@@ -1,0 +1,12 @@
+id	rtsp_url	proxy_url	channel_no	codec	rtsp_username	rtsp_password	device_id
+1	rtmp://localhost:1935/live/test_output	http://218.199.69.79:80/live/test_output.live.flv	1	H264	admin	admin123	1
+2	rtsp://192.168.1.102:554/stream	http://218.199.69.79:80/live/test_output.live.flv	1	H264	admin	admin123	2
+3	rtsp://192.168.1.103:554/stream	http://218.199.69.79:80/live/test_output.live.flv	1	H264	admin	admin123	7
+4	rtsp://192.168.1.104:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	8
+5	rtsp://192.168.1.105:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	9
+6	rtsp://192.168.1.106:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	10
+7	rtsp://192.168.1.107:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	11
+8	rtsp://192.168.1.108:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	12
+9	rtsp://192.168.1.109:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	13
+10	rtsp://192.168.1.110:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	14
+11	rtsp://192.168.1.111:554/stream	http://218.199.69.79:80/live/cart_output.live.flv	1	H264	admin	admin123	15
